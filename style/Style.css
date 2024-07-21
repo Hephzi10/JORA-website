@@ -141,6 +141,7 @@ header {
 
     .container {
         flex-direction: column; /* Stack product items vertically */
+            align-items: center;
     }
 }
 

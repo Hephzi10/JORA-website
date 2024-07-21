@@ -132,6 +132,7 @@ header {
 @media (max-width: 992px) {
     #navigation ul {
         flex-direction: column; /* Stack navigation items vertically */
+            align-items: center;
     }
 
     #navigation ul li {

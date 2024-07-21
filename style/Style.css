@@ -67,7 +67,7 @@ header {
     box-sizing: border-box;
 }
 
-.product img {
+.product img {  
     max-width: 100%;
     border-radius: 8px;
 }
@@ -80,6 +80,10 @@ header {
 .product p {
     margin: 0.5em 0;
     color: #5c4033; /* Dark Brown for text */
+}
+
+.product:hover {
+    cursor: url('img/shopping-cart.png'), auto; /* Custom cursor */
 }
 
 .footer {

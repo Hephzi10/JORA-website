@@ -67,7 +67,7 @@ header {
     box-sizing: border-box;
 }
 
-.product img {  
+.product img {
     max-width: 100%;
     border-radius: 8px;
 }
@@ -92,6 +92,15 @@ header {
     text-align: center;
     padding: 1em 0;
     width: 100%;
+}
+
+.footer a {
+    color: #ffb400; /* Rich Yellow for email link */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Custom Scrollbar Styles */

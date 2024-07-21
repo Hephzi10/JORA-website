@@ -123,13 +123,43 @@ header {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 992px) {
+    #navigation ul {
+        flex-direction: column; /* Stack navigation items vertically */
+    }
+
+    #navigation ul li {
+        margin: 0.5em 0; /* Add vertical spacing between items */
+    }
+
+    .container {
+        flex-direction: column; /* Stack product items vertically */
+    }
+}
+
 @media (max-width: 768px) {
     .product {
         flex: 1 1 100%;
         max-width: 100%;
     }
+}
 
-    .container {
-        width: 100%;
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.5em; /* Smaller header font size on very small screens */
+    }
+
+    .product {
+        margin: 0.5em 0;
+    }
+
+    .footer p {
+        font-size: 0.9em; /* Smaller font size in footer */
     }
 }

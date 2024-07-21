@@ -103,24 +103,24 @@ header {
     text-decoration: underline;
 }
 
-/* Custom Scrollbar Styles */
+/* Custom Scrollbar Styles 
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the entire scrollbar */
+    width: 12px; /* Width of the entire scrollbar 
 }
 
 ::-webkit-scrollbar-track {
-    background: #f8f5ec; /* Ivory background for scrollbar track */
+    background: #f8f5ec; /* Ivory background for scrollbar track
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #5c4033; /* Dark Brown for scrollbar thumb */
-    border-radius: 10px; /* Roundness of the scrollbar thumb */
-    border: 3px solid #f8f5ec; /* Padding around the scrollbar thumb */
+    background-color: #5c4033; /* Dark Brown for scrollbar thumb 
+    border-radius: 10px; /* Roundness of the scrollbar thumb 
+    border: 3px solid #f8f5ec; /* Padding around the scrollbar thumb 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #d9534f; /* Terracotta Red for scrollbar thumb on hover */
-}
+    background-color: #d9534f; /* Terracotta Red for scrollbar thumb on hover 
+}*/
 
 /* Responsive Design */
 @media (max-width: 1200px) {
